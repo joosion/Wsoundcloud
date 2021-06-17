@@ -1,0 +1,1323 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+.section{
+    width: 100%;
+    height: 10vh;
+}
+#fp-nav li a span{
+    background:white !important;
+}
+#fp-nav li a span:hover{
+    background-color: #FF5500 !important;
+}
+#fp-nav li a.active span{
+    background-color: #FF5500 !important;
+}
+.nav{
+    position: fixed;
+    top: 270px;
+    right: 900px;
+    opacity: 0;
+}
+.nav .main{
+    position: fixed;
+}
+.nav .box{
+    position: absolute;
+    width: 245px;
+    margin-left: -13px;
+    height: 130px;
+    top: -10px;
+    background-color: unset;
+    border: 3px solid #FF5500;
+    border-radius: 5px;
+}
+
+.con1{
+    width: 100%;
+    height: 100vh;
+    background-color: #212227;
+    font-family: 'SF Pro Display';
+    font-weight: 300;
+    color: white;
+}
+.con1 .logo{
+    width: 1200px;
+    top: 300px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.con1 p{
+    position: absolute;
+    top: 320px;
+    right: 13%;
+    font-size: 60px;
+    transform: translateX(-50%);
+
+}
+/* con1 */
+.con2{
+    display: block !important;
+    opacity: 1 !important;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-color: #212227;
+    position: relative;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+}
+.con2 .left{
+    top: 180px;
+    left: 320px;
+    justify-self: left;
+    font-family: 'SF Pro Display';
+    position: absolute;
+}
+.con2 .left .colors{
+    font-size: 30px;
+    margin-bottom: 60px;
+    font-weight: 500;
+}
+.con2 .left .main .ex{
+    position: absolute;
+    left: 20px;
+    width: 70px;
+    height: 70px;
+    background-color: #FF5500;
+    border-radius: 100px;
+}
+.con2 .left .main .name{
+    position: absolute;
+    left: 100px;
+    top: 70px;
+    font-weight: 500;
+    font-size: 25px;
+}
+.con2 .left .main .color{
+    position: absolute;
+    color: #FF5500;
+    left: 100px;
+    top:110px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.con2 .sub{
+    position: absolute;
+}
+.con2 .left .sub .black .cover{
+    position: absolute;
+    background-color: #FF5500;
+    width: 95px;
+    height: 30px;
+    top: 153px;
+    left: 90px;
+    border-radius: 30px;
+}
+.con2 .left .sub .black .name{
+    position: absolute;
+    left: 100px;
+    font-weight: 500;
+    top: 120px;
+    font-size: 24px;
+}
+.con2 .left .sub .black .ex{
+    position: absolute;
+    top: 145px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #191919;
+    border-radius: 100px;
+}
+.con2 .left .sub .black .color{
+    position: absolute;
+    color: #191919;
+    left: 100px;
+    top: 155px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.con2 .left .sub .gray .ex{
+    position: absolute;
+    top: 145px;
+    left: 235px;
+    width: 50px;
+    height: 50px;
+    background-color: #767676;
+    border-radius: 100px;
+}
+.con2 .left .sub .gray .color{
+    position: absolute;
+    color: #767676;
+    left: 305px;
+    top: 155px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.con2 .left .sub .yellow .ex{
+    position: absolute;
+    top: 225px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #FFC000;
+    border-radius: 100px;
+}
+.con2 .left .sub .yellow .color{
+    position: absolute;
+    color: #FFC000;
+    left: 100px;
+    top: 235px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.con2 .left .sub .blue .ex{
+    position: absolute;
+    top: 147px;
+    left: 235px;
+    width: 50px;
+    height: 50px;
+    background-color: #5773ff;
+    border-radius: 100px;
+}
+.con2 .left .sub .blue .color{
+    position: absolute;
+    color: #5773ff;
+    left: 305px;
+    top: 153px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.con2 .left .sub .blue .ex{
+    position: absolute;
+    top: 147px;
+    left: 235px;
+    width: 50px;
+    height: 50px;
+    background-color: #5773ff;
+    border-radius: 100px;
+}
+.con2 .left .sub .blue .color{
+    position: absolute;
+    color: #5773ff;
+    left: 305px;
+    top: 153px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.con2 .left .sub .white .ex{
+    position: absolute;
+    top: 255px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 100px;
+}
+.con2 .left .sub .white .color{
+    position: absolute;
+    color: white;
+    left: 100px;
+    top: 265px;
+    font-size: 20px;
+    font-weight: 300;
+}
+/* left */
+.con2 .right{
+    position: absolute;
+    top:180px;
+    right:320px;
+    font-family: 'SF Pro Display';
+    font-weight: 300;
+    background-color: #FF5151;
+}
+.con2 .right .font{
+    position: absolute;
+    right:365px;
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 60px;
+    font-weight: 500;
+    
+}
+.con2 .right .text{
+    position: absolute;
+    right: 190px;
+    font-weight: 500;
+    top: 100px;
+    font-size: 25px;
+}
+.con2 .right .text li{
+    margin-bottom: 60px;
+    width: 250px;
+    font-size: 25px;
+    text-align: left;
+}
+.con2 .right .text li:nth-child(1){
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+.con2 .right .text li:nth-child(2){
+    font-family: 'Roboto';
+    font-weight:medium;
+}
+.con2 .right .text li:nth-child(3){
+    font-family: 'Roboto';
+    font-weight:normal;
+}
+.con2 .right .text li:nth-child(4){
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+.con2 .right .text li:nth-child(5){
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+.con2 .right .name{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    font-size: 25px;
+}
+.con2 .right .name li{
+    margin-bottom: 60px;
+    font-size: 25px;
+    text-align: right;
+    color: #FF5500;
+}
+.con2 .right .name li:nth-child(1){
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+.con2 .right .name li:nth-child(2){
+    font-family: 'Roboto';
+    font-weight:medium;
+}
+.con2 .right .name li:nth-child(3){
+    font-family: 'Roboto';
+    font-weight:normal;
+}
+.con2 .right .name li:nth-child(4){
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+.con2 .right .name li:nth-child(5){
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+/* con3 */
+.con3{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    margin: 0 auto;
+    background-color: #212227;
+    text-align: center;
+    position: relative;
+}
+
+.con3 .com{
+    width: 695.8px;
+    height: 556.5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 200px;
+}
+.con3 .header{
+    position: absolute;
+    top: 200px;
+    text-align: left;
+    left:200px;
+    z-index: 999999999;
+}
+.con3 .header{
+    font-family: 'SF Pro Display';
+    font-weight:600;
+    font-size: 36px;
+    line-height: 40px;
+}
+.con3 .header span{
+    color: #242831;
+}
+.con3 .txt{
+    position: absolute;
+    left: 200px;
+    bottom: 250px;
+}
+.con3 .txt p{
+    font-size: 15px;
+    padding: 0;
+    font-family: 'AppleSDGothicNeoSB';
+    line-height: 45px;
+    text-align: left;
+}
+.con3 .txt span{
+    text-align: left;
+    font-family: 'AppleSDGothicNeoR';
+}
+/* con4 */
+.con4{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #212227;
+    font-size: 0;
+    overflow: hidden;
+    position: relative;
+}
+.con4 .back{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.con4 img{
+    width: 427px;
+    height: 784px;
+    position: absolute;
+    font-size: 0px;
+}
+.con4 .front{
+    right: 320px;
+    bottom: -1000px;
+    z-index: 8888;
+}
+.con4 .txt{
+    position: absolute;
+    top: 50%;
+    margin-left: 320px;
+    transform: translateY(-50%);
+}
+.con4 .overview{
+    font-family: 'SF Pro Display';
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 45px;
+}
+.con4 .content{
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 15px;
+    line-height: 35px;
+    color: white;
+    text-align: left;
+}
+/* con4 */
+.con5{
+    width: 100%;
+    height: 100vh;
+    background-color: #141517;
+    position: relative;
+    overflow: hidden;
+}
+.con5 p{
+    color: #858494;
+    font-family: 'SF Pro Display';
+    font-size: 20px;
+    font-weight:medium;
+    margin-left: 320px;
+    position: absolute;
+    top: 70px;
+}
+.con5 .wire{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -1000px;
+    z-index: 8888;
+}
+.con5 .back{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+/* con5 */
+.con6{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #212227;
+    height: 100vh;
+    position: relative;
+}
+.con6 .header{
+    position: absolute;
+    text-align: right;
+    color: #FF5500;
+    font-family: 'SF Pro Display';
+    font-size: 30px;
+    line-height: 40px;
+    top:270px;
+    transform: translateY(-50%);
+    right: 220px;
+    font-weight:medium;
+}
+.con6 .main{
+    position: absolute;
+    top: 47%;
+    left: 120px;
+    transform: translateY(-50%);
+}
+.con6 .con{
+    font-family: 'AppleSDGothicNeoL';
+    text-align: right;
+    position: absolute;
+    right: 220px;
+    color: white;
+    top: 480px;
+    transform: translateY(-50%);
+    line-height: 35px;
+}
+/* con6 */
+.con7{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #212227;
+    height: 100vh;
+    position: relative;
+}
+.con7 .header{
+    position: absolute;
+    text-align: right;
+    color: #FF5500;
+    font-family: 'SF Pro Display';
+    font-size: 30px;
+    line-height: 40px;
+    top:270px;
+    transform: translateY(-50%);
+    right: 220px;
+    font-weight:medium;
+}
+.con7 .main{
+    position: absolute;
+    top: 47%;
+    left: 120px;
+    transform: translateY(-50%);
+}
+.con7 .con{
+    font-family: 'AppleSDGothicNeoL';
+    text-align: right;
+    position: absolute;
+    right: 220px;
+    color: white;
+    top: 500px;
+    transform: translateY(-50%);
+    line-height: 35px;
+}
+/* con7 */
+.con8{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #212227;
+    height: 100vh;
+    position: relative;
+}
+.con8 .header{
+    position: absolute;
+    text-align: right;
+    color: #FF5500;
+    font-family: 'SF Pro Display';
+    font-size: 30px;
+    line-height: 40px;
+    top:270px;
+    transform: translateY(-50%);
+    right: 220px;
+    font-weight:medium;
+}
+.con8 .main{
+    position: absolute;
+    top: 47%;
+    left: 120px;
+    transform: translateY(-50%);
+}
+.con8 .con{
+    font-family: 'AppleSDGothicNeoL';
+    text-align: right;
+    position: absolute;
+    right: 220px;
+    color: white;
+    top: 575px;
+    transform: translateY(-50%);
+    line-height: 35px;
+}
+/* con8 */
+.con9{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    margin: 0 auto;
+    background-color: #212227;
+    text-align: center;
+    position: relative;
+}
+
+.con9 .header{
+    position: absolute;
+    top: 200px;
+    text-align: left;
+    left:200px;
+    z-index: 999999999;
+    font-family: 'SF Pro Display';
+    font-weight:600;
+    font-size: 36px;
+    line-height: 40px;
+}
+.con9 .header span{
+    color: #242831;
+}
+.con9 .txt{
+    position: absolute;
+    left: 200px;
+    bottom: 250px;
+}
+.con9 .txt p{
+    font-size: 15px;
+    padding: 0;
+    font-family: 'AppleSDGothicNeoSB';
+    line-height: 45px;
+    text-align: left;
+}
+.con9 .txt span{
+    text-align: left;
+    font-family: 'AppleSDGothicNeoR';
+}
+.con9 .phone{
+    position: absolute;
+    right: 320px;
+    bottom: -10px;
+}
+.con9 .ptop{
+    position: absolute;
+    bottom: 0;
+    left: 500px;
+}
+.con9 .pbottom{
+    position: absolute;
+    top: 0;
+    right: 200px;
+}
+.con9 .circle1{
+    width: 450px;
+    height: 450px;
+    background-color: unset;
+    border: 1px solid #FF5500;
+    border-radius: 50%;
+    position: absolute;
+    right: 570px;
+    animation: circle1 3s infinite linear;
+    transition: 0.5s;
+    top: 250px;
+}
+.con9 .circle2{
+    width: 650px;
+    height: 650px;
+    background-color: unset;
+    border: 1px solid #FF5500;
+    border-radius: 50%;
+    position: absolute;
+    animation: circle2 3s infinite linear;
+    right: 470px;
+    top: 150px;
+    opacity: 0.5;
+}
+.con9 .circle3{
+    width: 850px;
+    height: 850px;
+    background-color: unset;
+    border: 1px solid #FF5500;
+    border-radius: 50%;
+    position: absolute;
+    animation: circle3 3s infinite linear;
+    right: 370px;
+    top: 50px;
+    opacity: 0.3;
+
+}
+/* key frame */
+@keyframes circle1 {
+    0% {
+        opacity: 0;
+        border-radius: 50%;
+        transform: scale(0.7);
+    }
+
+    50% {
+        opacity: 1;
+        border-radius: 50%;
+        transform: scale(0.9);
+    }
+
+    100%{
+        opacity:0;
+        border-radius: 50%;
+        transform: scale(1.2);
+    }
+  }
+@keyframes circle2 {
+
+    0% {
+        opacity: 0.3;
+        border-radius: 50%;
+        transform: scale(0.7);
+    }
+
+    50% {
+        opacity: 0.7;
+        border-radius: 50%;
+        transform: scale(0.9);
+    }
+
+    100%{
+        opacity:0;
+        border-radius: 50%;
+        transform: scale(1.2);
+    }
+  }
+
+@keyframes circle3 {
+
+    0% {
+        opacity: 0.1;
+        border-radius: 50%;
+        transform: scale(0.7);
+    }
+
+    50%{
+        opacity: 0.5;
+        border-radius: 50%;
+        transform: scale(0.9);
+    }
+    100%{
+        opacity:0;
+        border-radius: 50%;
+        transform: scale(1.2);
+    }
+  }
+/*con9*/
+.con10{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #212227;
+    font-size: 0;
+    overflow: hidden;
+    position: relative;
+}
+.con10 .con10back{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left:0;
+    bottom:230px;
+}
+.con10 .con10front{
+    width: 450px;
+    bottom: 70px;
+    right:290px;
+    height: auto;
+    position: absolute;
+
+}
+
+.con10 .txt{
+    position: absolute;
+    top: 50%;
+    margin-left: 320px;
+    transform: translateY(-50%);
+}
+.con10 .overview{
+    font-family: 'SF Pro Display';
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 45px;
+}
+.con10 .content{
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 15px;
+    line-height: 35px;
+    color: white;
+    text-align: left;
+}
+/* con10 */
+.con11{
+    width: 100%;
+    height: 100vh;
+    background-color: #141517;
+    position: relative;
+    overflow: hidden;
+}
+.con11 p{
+    color: #858494;
+    font-family: 'SF Pro Display';
+    font-size: 20px;
+    font-weight:medium;
+    margin-left: 320px;
+    position: absolute;
+    top: 70px;
+}
+.con11 .back{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.con11 .center, .con11 .left, .con11 .right{
+    opacity: 0;
+}
+.con11 .center{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+.con11 .left{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+.con11 .right{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+/* con11 */
+.con12{
+    background-color: #212227;
+}
+.con12 .con12phone{
+    width: 420px;
+    height: auto;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left:15%;
+}
+.con12 .con12phone-1{
+    width: 330px;
+    height: auto;
+    position: absolute;
+    top:50%;
+    left:330px;
+    transform: translateY(-50%);
+}
+.con12 .f1{
+    position: absolute;
+    right: 10px;
+    opacity: 1;
+}
+.info1{
+    position: absolute;
+    left:900px;
+    top: 210px;
+    display: flex;
+    font-size: 0;
+    padding: 0;
+}
+.line{
+    right: 150px;
+    width: 0px;
+    height: 5px;
+    border-radius: 5px;
+    background:linear-gradient(to right, rgba(255, 85, 0, 0), rgba(255, 85, 0, 1));
+
+}
+.banner{
+    position: absolute;
+    right: 380px;
+    top: 187px;
+    opacity: 0;
+}
+.bannert{
+    font-family: 'SF Pro Display';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FF5500;
+}
+.bannerp{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+}
+.info2{
+    position: absolute;
+    left:900px;
+    top: 510px;
+    display: flex;
+    font-size: 0;
+    padding: 0;
+}
+.line2{
+    right: 150px;
+    width: 0px;
+    height: 5px;
+    border-radius: 15px;
+    background:linear-gradient(to right, rgba(255, 85, 0, 0), rgba(255, 85, 0, 1));
+
+}
+.mains{
+    position: absolute;
+    right: 350px;
+    top: 485px;
+    opacity: 0;
+}
+.maint{
+    font-family: 'SF Pro Display';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FF5500;
+}
+.mainp{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+}
+/* con12 */
+.con13{
+    background-color: #212227;
+}
+.con13phone{
+    width: 45%;
+    height: auto;
+    bottom: 5%;
+    position: absolute;
+    left: 40%;
+    transform: translateX(-50%);
+}
+.con13 .search{
+    position: absolute;
+    left: 960px;
+    top:150px;
+    opacity: 0;
+}
+.con13 .searcht{
+    font-family: 'SF Pro Display';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FF5500;
+}
+.searchp{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+}
+.info3{
+    position: absolute;
+    left:900px;
+    bottom: 450px;
+    display: flex;
+    font-size: 0;
+    padding: 0;
+}
+.line3{
+    right: 150px;
+    width: 5px;
+    height: 0px;
+    border-radius: 15px;
+    background:linear-gradient(to top, rgba(255, 85, 0, 0), rgba(255, 85, 0, 1));
+
+}
+.album{
+    position: absolute;
+    left: 1190px;
+    top: 350px;
+    opacity: 0;
+}
+.album img{
+    width: 130px;
+    height: 130px;
+}
+.album1{
+    margin-right: 30px;
+}
+/* con13 */
+.con14{
+    background-color: #212227;
+}
+.con14 .con14phone{
+    width: 420px;
+    height: auto;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left:15%;
+}
+.con14 .con14cd{
+    position: absolute;
+    left: 450px;
+    top: 280px;
+}
+.con14 .con14album{
+    position: absolute;
+    left: 1100px;
+    top: 235px;
+    opacity: 0;
+}
+.con14 .con14albumt{
+    font-family: 'SF Pro Display';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FF5500;
+}
+.con14albump{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+}
+.info4{
+    position: absolute;
+    left: 750px;
+    top: 255px;
+}
+.line4{
+    right: 150px;
+    width: 0px;
+    border-radius: 50px;
+    height: 5px;
+    background:linear-gradient(to right, rgba(255, 85, 0, 0), rgba(255, 85, 0, 1));
+
+}
+.zoomin{
+    position: absolute;
+    right: 300px;
+    top: 450px;
+    opacity: 0;
+}
+/* con14 */
+.con15{
+    background-color: #212227;
+    overflow: hidden;
+}
+.con15 .con15left{
+    position: absolute;
+    top: -100px;
+    left:10%;
+    opacity: 0;
+}
+.con15 .con15right{
+    position: absolute;
+    bottom:50px;
+    right:15%;
+}
+.con15 .con15circle1{
+    width: 450px;
+    height: 450px;
+    background-color: unset;
+    border: 1px solid #FF5500;
+    border-radius: 50%;
+    position: absolute;
+    right: 230px;
+    animation: circle1 3s infinite linear;
+    transition: 0.5s;
+    top: 370px;
+}
+.con15 .con15circle2{
+    width: 650px;
+    height: 650px;
+    background-color: unset;
+    border: 1px solid #FF5500;
+    border-radius: 50%;
+    position: absolute;
+    animation: circle2 3s infinite linear;
+    right: 130px;
+    top: 270px;
+    opacity: 0.5;
+}
+.con15 .con15circle3{
+    width: 850px;
+    height: 850px;
+    background-color: unset;
+    border: 1px solid #FF5500;
+    border-radius: 50%;
+    position: absolute;
+    animation: circle3 3s infinite linear;
+    right: 35px;
+    top: 175px;
+    opacity: 0.3;
+}
+.dock{
+    position: absolute;
+    top: 165px;
+    left: 900px;
+    opacity: 0;
+}
+.dockt{
+    font-family: 'SF Pro Display';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FF5500;
+}
+.dockp{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+}
+.music{
+    position: absolute;
+    right:740px;
+    top: 577px;
+    opacity: 0;
+}
+.musict{
+    font-family: 'SF Pro Display';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FF5500;
+}
+.musicp{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+}
+.info5{
+    position: absolute;
+    top:600px;
+    right: 630px;
+}
+.line5{
+    width: 0px;
+    border-radius: 50px;
+    height: 5px;
+    background:linear-gradient(to left, rgba(255, 85, 0, 0), rgba(255, 85, 0, 1));
+}
+.info6{
+    position: absolute;
+    top:185px;
+    left: 560px;
+}
+.line6{
+    width: 0px;
+    border-radius: 50px;
+    height: 5px;
+    background:linear-gradient(to right, rgba(255, 85, 0, 0), rgba(255, 85, 0, 1));
+}
+/* con16 */
+.con16{
+    background-color: #212227;
+}
+.con16 .phone{
+    position: absolute;
+    width: 350px;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.con16 .con16circle1{
+    width: 450px;
+    height: 450px;
+    background-color: unset;
+    border: 1px solid #FF5500;
+    border-radius: 50%;
+    position: absolute;
+    top: 290px;
+    left: 735px;
+    animation: circle1 3s infinite linear;
+    transition: 0.5s;
+}
+.con16 .con16circle2{
+    width: 650px;
+    height: 650px;
+    background-color: unset;
+    border: 1px solid #FF5500;
+    border-radius: 50%;
+    position: absolute;
+    top: 175px;
+    left: 630px;
+    animation: circle2 3s infinite linear;
+    transition: 0.5s;
+}
+.con16 .con16circle3{
+    width: 850px;
+    height: 850px;
+    background-color: unset;
+    border: 1px solid #FF5500;
+    border-radius: 50%;
+    position: absolute;
+    top: 75px;
+    left: 530px;
+    animation: circle3 3s infinite linear;
+    transition: 0.5s;
+}
+.fllowing{
+    text-align: right;
+    position: absolute;
+    right: 200px;
+    top: 250px;
+    opacity: 0;
+}
+.fllowingt{
+    font-family: 'SF Pro Display';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FF5500;
+}
+.fllowingp{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+}
+.live{
+    position: absolute;
+    left: 240px;
+    top: 500px;
+    opacity: 0;
+}
+.livet{
+    font-family: 'SF Pro Display';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FF5500;
+}
+.livep{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+}
+.lives{
+    position: absolute;
+    left: 240px;
+    top: 660px;
+    opacity: 0;
+}
+.info7{
+    position: absolute;
+    top:270px;
+    left: 1150px;
+}
+.line7{
+    width: 0px;
+    border-radius: 50px;
+    height: 5px;
+    background:linear-gradient(to right, rgba(255, 85, 0, 0), rgba(255, 85, 0, 1));
+}
+.info8{
+    position: absolute;
+    top:520px;
+    right: 1150px;
+}
+.line8{
+    width: 0px;
+    border-radius: 50px;
+    height: 5px;
+    background:linear-gradient(to left, rgba(255, 85, 0, 0), rgba(255, 85, 0, 1));
+}
+/* con16 */
+.con17{
+    background-color: #212227;
+}
+.con17 .back{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.con17 .con17phone{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    right: 300px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.on{
+    position: absolute;
+    left: 590px;
+    top: 280px;
+    opacity: 0;
+}
+.onp{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+}
+.ont{
+    font-family: 'SF Pro Display';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FF5500;
+}
+.do{
+    position: absolute;
+    left: 590px;
+    top: 628px;
+    opacity: 0;
+}
+.dop{
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+}
+.dot{
+    font-family: 'SF Pro Display';
+    font-weight:600;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FF5500;
+}
+.info9{
+    position: absolute;
+    top:300px;
+    right: 750px;
+}
+.line9{
+    width: 0px;
+    border-radius: 50px;
+    height: 5px;
+    background:linear-gradient(to left, rgba(255, 85, 0, 0), rgba(255, 85, 0, 1));
+}
+.info10{
+    position: absolute;
+    top:650px;
+    right: 750px;
+}
+.line10{
+    width: 0px;
+    border-radius: 50px;
+    height: 5px;
+    background:linear-gradient(to left, rgba(255, 85, 0, 0), rgba(255, 85, 0, 1));
+}
+/* con17 */
