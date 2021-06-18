@@ -914,7 +914,7 @@
 .con13 .search{
     position: absolute;
     left: 960px;
-    top:150px;
+    top:95px;
     opacity: 0;
 }
 .con13 .searcht{
@@ -949,7 +949,7 @@
 .album{
     position: absolute;
     left: 1190px;
-    top: 350px;
+    top: 300px;
     opacity: 0;
 }
 .album img{
