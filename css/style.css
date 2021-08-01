@@ -353,13 +353,13 @@
 .con3 .txt{
     position: absolute;
     left: 200px;
-    bottom: 267px;
+    bottom: 260px;
 }
 .con3 .txt p{
     font-size: 20px;
     padding: 0;
     font-family: 'AppleSDGothicNeoSB';
-    line-height: 45px;
+    line-height: 50px;
     text-align: left;
 }
 .con3 .txt span{
@@ -586,13 +586,13 @@
 .con9 .txt{
     position: absolute;
     left: 200px;
-    bottom: 250px;
+    bottom: 240px;
 }
 .con9 .txt p{
     font-size: 20px;
     padding: 0;
     font-family: 'AppleSDGothicNeoSB';
-    line-height: 45px;
+    line-height: 50px;
     text-align: left;
 }
 .con9 .txt span{
